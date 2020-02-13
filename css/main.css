@@ -1227,7 +1227,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #08af87;
+  background: #b15b8a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1272,7 +1272,6 @@ pre .javascript .function {
   padding: 0;
 }
 .links-of-blogroll-item {
-  display: inline-block;
   padding: 2px 10px;
 }
 .links-of-blogroll-item a,
@@ -2985,18 +2984,18 @@ body {
   color: #000;
   border-bottom: 0px solid #607d8b;
 }
-/* .post-toc ol a:hover {
-    color: rgb(255, 255, 255);
-    border-bottom-color: rgb(255, 255, 255);
-} */
-/*.post-toc .nav .active > a {
-    color: rgb(161, 102, 171);
-    border-bottom-color: rgb(161, 102, 171);
+.post-toc ol a:hover {
+  color: #ff106c;
+  border-bottom-color: #ff106c;
+}
+.post-toc .nav .active > a {
+  color: #a166ab;
+  border-bottom-color: #a166ab;
 }
 .post-toc .nav .active > a:hover {
-    color: rgb(161, 102, 171);
-    border-bottom-color: rgb(161, 102, 171);
-}*/
+  color: #a166ab;
+  border-bottom-color: #a166ab;
+}
 /* 修侧栏目录bug，如果主题配置文件_config.yml的toc是wrap: true */
 /*.post-toc ol {
     padding: 0px 10px 5px 10px;
@@ -3052,20 +3051,20 @@ img.img-topic {
 }
 /*-------------------归档界面-----------------*/
 .posts-collapse::before {
-  background-color: #e9f8ff;
+  background-color: #fbccdc;
 }
 .posts-collapse .collection-title::before {
-  background-color: #87daff;
+  background-color: #ff106c;
 }
 .posts-collapse .collection-year::before {
-  background-color: #87daff;
+  background-color: #ff106c;
 }
 .posts-collapse .post-header::before {
-  background-color: #87daff;
+  background-color: #ff106c;
 }
 .posts-collapse .post-meta {
   font-weight: bold;
-  color: #87daff;
+  color: #ff106c;
 }
 /*--------------------首页---------------------*/
 .logo-line-before,
@@ -3075,4 +3074,8 @@ img.img-topic {
 .logo-line-before i,
 .logo-line-after i {
   background-color: rgba(0,0,0,0);
+}
+/*--------------------文章---------------------*/
+.posts-expand .post-tags a {
+  color: #ff106c;
 }
